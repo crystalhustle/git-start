@@ -1,7 +1,10 @@
 public class Car {
 
+    int number;
+    String model;
+
     @Override
     public String toString() {
-        return "This is car";
+        return number + " " + model;
     }
 }
